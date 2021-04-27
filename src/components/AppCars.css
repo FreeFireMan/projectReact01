@@ -1,0 +1,25 @@
+div{
+    background: lightyellow;
+    height: auto;
+    width: 800px;
+    margin: 5px;
+}
+
+h2{
+    text-align: center;
+    color: blueviolet;
+}
+img{
+    height: 200px;
+    width: 400px;
+    border-radius:50px;
+    margin: 20px;
+
+}
+
+p{
+    font-family:Consolas ;
+    font-size:14pt;
+    text-align: justify;
+    margin: 10px;
+}
