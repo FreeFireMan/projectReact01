@@ -1,10 +1,11 @@
 import './AppCars.css';
-function AppCars(props) {
-  return <div>
-      <h2> {props.heading} </h2>
-      <img src={props.image} alt=""/>
-      <p> {props.description} </p>
-  </div>
+
+function AppCars({car}) {
+    return <div>
+        <h2> {car.heading} </h2>
+        <img src={car.image} alt=""/>
+        <p> {car.description} </p>
+    </div>
 }
 
 export default AppCars;
